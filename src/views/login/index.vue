@@ -192,7 +192,7 @@ export default class Login extends Vue {
 
   // 弹出注册子组件
   register () {
-    console.log('---register---')
+    this.$refs.registerRef.dialogVisible = true
   }
 }
 </script>
