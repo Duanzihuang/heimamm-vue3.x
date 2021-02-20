@@ -22,7 +22,9 @@ import {
   ElTableColumn,
   ElUpload,
   ElMessage,
-  ElMessageBox
+  ElMessageBox,
+  ElAside,
+  ElHeader
 } from 'element-plus'
 
 const components = [
@@ -31,6 +33,8 @@ const components = [
   ElCheckbox,
   ElCol,
   ElContainer,
+  ElAside,
+  ElHeader,
   ElDialog,
   ElForm,
   ElFormItem,
